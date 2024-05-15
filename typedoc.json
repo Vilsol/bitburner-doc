@@ -1,0 +1,5 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": ["./repo/src/ScriptEditor/NetscriptDefinitions.d.ts"],
+    "out": "docs"
+}

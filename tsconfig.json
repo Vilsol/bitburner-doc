@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@player": ["src/Player"],
+      "@enums": ["src/Enums"],
+      "@nsdefs": ["src/ScriptEditor/NetscriptDefinitions"]
+    },
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["./repo/src/ScriptEditor/NetscriptDefinitions.d.ts"],
+  // "exclude": ["./repo/src/**/*.ts"]
+}
